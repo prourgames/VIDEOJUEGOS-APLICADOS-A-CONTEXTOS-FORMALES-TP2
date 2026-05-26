@@ -619,15 +619,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 790c350a4deeff349a4f6cc666fc2eb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Eventos
-  tiempoEvento: 10
-  sonidoCampana: {fileID: 8300000, guid: 0526c901cdddc234489fb5ef56f240c0, type: 3}
-  textoEvento: {fileID: 0}
-  audioSource: {fileID: 0}
-  eventoActual: 
-  multiplicadorRojo: 1
-  multiplicadorAzul: 1
-  multiplicadorVerde: 1
-  temporizador: 0
 --- !u!82 &466436554
 AudioSource:
   m_ObjectHideFlags: 0
@@ -975,6 +966,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Drop
   prefabs:
   - {fileID: 5516928685288269165, guid: 4c9208270b652a74c9fb396051fedd4d, type: 3}
+  - {fileID: 5516928685288269165, guid: 0d95de3fb2331874eb4f8940f977f46f, type: 3}
+  - {fileID: 5516928685288269165, guid: df91acc8e1dcb254db6c4e990e6386e5, type: 3}
+  - {fileID: 5516928685288269165, guid: e320b2d97cd975f498d80d192989d9fc, type: 3}
+  - {fileID: 5516928685288269165, guid: a37eb994b6ed48e438d418afb7ec715d, type: 3}
+  - {fileID: 5516928685288269165, guid: ab02a1d332d47b84fac0f537685269b5, type: 3}
+  - {fileID: 5516928685288269165, guid: 31ee1a7a4ea2a064384f7710c59a85ca, type: 3}
+  - {fileID: 5516928685288269165, guid: e39ad7f1b474daa48b698d76ee7d08b4, type: 3}
+  - {fileID: 5516928685288269165, guid: 58076c857f1d89a47b9b6de5bc6b56a2, type: 3}
+  - {fileID: 5516928685288269165, guid: cc1abfe58d2bf464f86617f7643e3625, type: 3}
+  - {fileID: 5516928685288269165, guid: 0135fcd97bc101b4fb208b026f540d68, type: 3}
   zonaSpawn: {fileID: 1278664536}
   tiempoEntreSpawns: 2
   alturaSpawn: 10
@@ -1048,7 +1049,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -700, y: 421}
+  m_AnchoredPosition: {x: -476, y: 271}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1426983772
